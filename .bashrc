@@ -1,12 +1,14 @@
-complete -C z z #To activate bash completion
-#set -o vi
+
+complete -C z  z  #To activate bash completion
+set -o vi
 # Correct small spelling errors
 shopt -s cdspell
 shopt -s autocd # Allows you to cd into directory merely by typing the name
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
 
+# Ctl+p copy/paste option
+#vnoremap <C-c> "+y
+#map <C-P> "+p
+#
 #export PAGER='most'
 
 # If not running interactively, don't do anything
@@ -84,8 +86,9 @@ if [ "$color_prompt" = yes ]; then
 fi
 
 unset color_prompt force_color_prompt
+
 # For git bare repository
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME/'
 
 # PS1 Prompt
 export PS1="\[\e[33m\][\[\e[m\]\[\e[31m\]\u\[\e[m\]@\[\e[36m\]\h\[\e[m\]:\[\e[35m\]\w\[\e[m\]\[\e[33m\]]\[\e[m\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)) \$ "
