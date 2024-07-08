@@ -121,4 +121,4 @@ alias gf='git fetch'
 alias cst="config status"
 alias cad="config add"
 alias ccm="config commit -m"
-alias cpu="Computer push"
+alias cpu="config push"
