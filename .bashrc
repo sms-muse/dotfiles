@@ -13,7 +13,7 @@ shopt -s histappend
 #vnoremap <C-c> "+y
 #map <C-P> "+p
 #
-export PAGER='most'
+#export PAGER='most'
 
 # If not running interactively, don't do anything
 case $- in
