@@ -1,0 +1,244 @@
+Script started on 2023-03-03 15:30:22-08:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="190" LINES="54"]
+[?2004h]0;sms@gl502vmk-pop: ~/.config/mpv]0;sms@gl502vmk-pop: ~/.config/mpv[0;31m┌─[[0;39msms[01;33m@[01;96mgl502vmk-pop[0;31m]─[[0;32m~/.config/mpv[0;31m]
+[0;31m└──╼ [0m[01;33m$[0ml
+[?2004l[4mPermissions[0m [4mSize[0m [4mUser[0m [4mDate Modified[0m [4mName[0m
+.[1;33mr[31mw[4;32mx[0m[33mr[38;5;244m-[32mx[33mr[38;5;244m-[32mx[0m   [1;32m874[0m [1;33msms[0m  [34m 3 Apr  2022[0m  [32m [1minput.conf[0m*
+[1;34md[33mr[31mw[32mx[0m[33mr[38;5;244m-[32mx[33mr[38;5;244m-[32mx[0m     [38;5;244m-[0m [1;33msms[0m  [34m 3 Mar 15:11[0m  [34m [1mlua-settings[0m/
+[1;34md[33mr[31mw[32mx[0m[33mr[38;5;244m-[32mx[33mr[38;5;244m-[32mx[0m     [38;5;244m-[0m [1;33msms[0m  [34m13 Oct  2021[0m  [34m [1mplaylists[0m/
+[1;34md[33mr[31mw[32mx[0m[33mr[31mw[32mx[33mr[38;5;244m-[32mx[0m     [38;5;244m-[0m [1;33msms[0m  [34m 3 Mar 15:30[0m  [34m [1mscript-opts[0m/
+[1;34md[33mr[31mw[32mx[0m[33mr[38;5;244m-[32mx[33mr[38;5;244m-[32mx[0m     [38;5;244m-[0m [1;33msms[0m  [34m10 Nov  2022[0m  [34m [1mscripts[0m/
+.[1;33mr[31mw[0m[38;5;244m-[33mr[31mw[38;5;244m-[33mr[38;5;244m--[0m     [1;32m0[0m [1;33msms[0m  [34m 3 Mar 15:30[0m   typescript
+[1;34md[33mr[31mw[32mx[0m[33mr[38;5;244m-[32mx[33mr[38;5;244m-[32mx[0m     [38;5;244m-[0m [1;33msms[0m  [34m 3 Mar 15:16[0m  [34m [1mwatch_later[0m/
+[?2004h]0;sms@gl502vmk-pop: ~/.config/mpv]0;sms@gl502vmk-pop: ~/.config/mpv[0;31m┌─[[0;39msms[01;33m@[01;96mgl502vmk-pop[0;31m]─[[0;32m~/.config/mpv[0;31m]
+[0;31m└──╼ [0m[01;33m$[0mcd scripts
+[?2004l[?2004h]0;sms@gl502vmk-pop: ~/.config/mpv/scripts]0;sms@gl502vmk-pop: ~/.config/mpv/scripts[0;31m┌─[[0;39msms[01;33m@[01;96mgl502vmk-pop[0;31m]─[[0;32m~/.config/mpv/scripts[0;31m]
+[0;31m└──╼ [0m[01;33m$[0mll
+[?2004l[4mPermissions[0m [4mSize[0m [4mUser[0m [4mDate Modified[0m [4mName[0m
+.[1;33mr[31mw[0m[38;5;244m-[33mr[38;5;244m--[33mr[38;5;244m--[0m  [1;32m125[0m[32mk[0m [1;33msms[0m  [34m10 Nov  2022[0m   mpv_thumbnail_script_client_osc.lua
+.[1;33mr[31mw[0m[38;5;244m-[33mr[38;5;244m--[33mr[38;5;244m--[0m   [1;32m23[0m[32mk[0m [1;33msms[0m  [34m10 Nov  2022[0m   mpv_thumbnail_script_server-1.lua
+.[1;33mr[31mw[0m[38;5;244m-[33mr[38;5;244m--[33mr[38;5;244m--[0m   [1;32m23[0m[32mk[0m [1;33msms[0m  [34m10 Nov  2022[0m   mpv_thumbnail_script_server.lua
+[?2004h]0;sms@gl502vmk-pop: ~/.config/mpv/scripts]0;sms@gl502vmk-pop: ~/.config/mpv/scripts[0;31m┌─[[0;39msms[01;33m@[01;96mgl502vmk-pop[0;31m]─[[0;32m~/.config/mpv/scripts[0;31m]
+[0;31m└──╼ [0m[01;33m$[0m..
+[?2004lcd -- ..
+[?2004h]0;sms@gl502vmk-pop: ~/.config/mpv]0;sms@gl502vmk-pop: ~/.config/mpv[0;31m┌─[[0;39msms[01;33m@[01;96mgl502vmk-pop[0;31m]─[[0;32m~/.config/mpv[0;31m]
+[0;31m└──╼ [0m[01;33m$[0mwget [7mhttps://raw.githubusercontent.com/mpv-player/mpv/master/etc/mpv.conf[27m[C[C[C[C[C[C[C[C[C[C[Chttps://raw.githubusercontent.com/mpv-player/mpv/master/etc/mpv.conf
+[?2004l--2023-03-03 15:30:59--  https://raw.githubusercontent.com/mpv-player/mpv/master/etc/mpv.conf
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4365 (4.3K) [text/plain]
+Saving to: ‘mpv.conf’
+
+mpv.conf                                          0%[                                                                                                      ]       0  --.-KB/s               mpv.conf                                        100%[=====================================================================================================>]   4.26K  --.-KB/s    in 0s      
+
+2023-03-03 15:30:59 (15.7 MB/s) - ‘mpv.conf’ saved [4365/4365]
+
+[?2004h]0;sms@gl502vmk-pop: ~/.config/mpv]0;sms@gl502vmk-pop: ~/.config/mpv[0;31m┌─[[0;39msms[01;33m@[01;96mgl502vmk-pop[0;31m]─[[0;32m~/.config/mpv[0;31m]
+[0;31m└──╼ [0m[01;33m$[0mll
+[?2004l[4mPermissions[0m [4mSize[0m [4mUser[0m [4mDate Modified[0m [4mName[0m
+.[1;33mr[31mw[4;32mx[0m[33mr[38;5;244m-[32mx[33mr[38;5;244m-[32mx[0m   [1;32m874[0m [1;33msms[0m  [34m 3 Apr  2022[0m  [32m [1minput.conf[0m*
+[1;34md[33mr[31mw[32mx[0m[33mr[38;5;244m-[32mx[33mr[38;5;244m-[32mx[0m     [38;5;244m-[0m [1;33msms[0m  [34m 3 Mar 15:11[0m  [34m [1mlua-settings[0m/
+.[1;33mr[31mw[0m[38;5;244m-[33mr[31mw[38;5;244m-[33mr[38;5;244m--[0m  [1;32m4.4[0m[32mk[0m [1;33msms[0m  [34m 3 Mar 15:30[0m   mpv.conf
+[1;34md[33mr[31mw[32mx[0m[33mr[38;5;244m-[32mx[33mr[38;5;244m-[32mx[0m     [38;5;244m-[0m [1;33msms[0m  [34m13 Oct  2021[0m  [34m [1mplaylists[0m/
+[1;34md[33mr[31mw[32mx[0m[33mr[31mw[32mx[33mr[38;5;244m-[32mx[0m     [38;5;244m-[0m [1;33msms[0m  [34m 3 Mar 15:30[0m  [34m [1mscript-opts[0m/
+[1;34md[33mr[31mw[32mx[0m[33mr[38;5;244m-[32mx[33mr[38;5;244m-[32mx[0m     [38;5;244m-[0m [1;33msms[0m  [34m10 Nov  2022[0m  [34m [1mscripts[0m/
+.[1;33mr[31mw[0m[38;5;244m-[33mr[31mw[38;5;244m-[33mr[38;5;244m--[0m  [1;32m4.1[0m[32mk[0m [1;33msms[0m  [34m 3 Mar 15:30[0m   typescript
+[1;34md[33mr[31mw[32mx[0m[33mr[38;5;244m-[32mx[33mr[38;5;244m-[32mx[0m     [38;5;244m-[0m [1;33msms[0m  [34m 3 Mar 15:16[0m  [34m [1mwatch_later[0m/
+[?2004h]0;sms@gl502vmk-pop: ~/.config/mpv]0;sms@gl502vmk-pop: ~/.config/mpv[0;31m┌─[[0;39msms[01;33m@[01;96mgl502vmk-pop[0;31m]─[[0;32m~/.config/mpv[0;31m]
+[0;31m└──╼ [0m[01;33m$[0mv mpv.conf 
+[?2004l[?1001s[?1000h[?1000l[?1001r[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;54r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[54;1H"mpv.conf" 138L, 4365B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[54;1H[?25h[?2004l[>4;m[2 q[?2004h[>4;2m[27m[23m[29m[m[H[2J[1;1H[38;5;17m[48;5;190m mpv.conf [m[38;5;190m[48;5;234m[m[1;12H[38;5;85m[48;5;234m                                                                                                                                                                        [m[38;5;234m[48;5;234m[m[1;181H[38;5;238m[48;5;234m[m[1;182H[38;5;255m[48;5;238m buffers [?25l[m[2;1H[90m#
+# Example mpv configuration file
+#
+# Warning:
+#
+# The commented example options usually do _not_ set the default values. Call
+# mpv with --list-options to see the default values for most options. There is
+# no builtin or example mpv.conf with all the defaults.
+#
+#
+# Configuration files are read system-wide from /usr/local/etc/mpv.conf
+# and per-user from ~/.config/mpv/mpv.conf, where per-user settings override
+# system-wide settings, all of which are overridden by the command line.
+#
+# Configuration file settings and the command line options use the same
+# underlying mechanisms. Most options can be put into the configuration file
+# by dropping the preceding '--'. See the man page for a complete list of
+# options.
+#
+# Lines starting with '#' are comments and are ignored.
+#
+# See the CONFIGURATION FILES section in the man page
+# for a detailed description of the syntax.
+#
+# Profiles should be placed at the bottom of the configuration file to ensure
+# that settings wanted as defaults are not restricted to specific profiles.
+
+##################
+# video settings #
+##################
+
+# Start in fullscreen mode by default.
+#fs=yes
+
+# force starting with centered window
+#geometry=50%:50%
+
+# don't allow a new window to have a size larger than 90% of the screen size
+#autofit-larger=90%x90%
+
+# Do not close the window on exit.
+#keep-open=yes
+
+# Do not wait with showing the video window until it has loaded. (This will
+# resize the window once video is loaded. Also always shows a window with
+# audio.)
+#force-window=immediate
+
+# Disable the On Screen Controller (OSC).
+#osc=no[m
+
+[38;5;17m[48;5;190m [m[1m[38;5;17m[48;5;190mNORMAL[m[38;5;17m[48;5;190m [m[38;5;190m[48;5;238m[m[53;10H[38;5;255m[48;5;238m [53;12H master [m[38;5;238m[48;5;234m[m[53;21H[38;5;85m[48;5;234m mpv.conf                                                                                                                         [m[38;5;234m[48;5;234m[m[53;152H[38;5;85m[48;5;234m conf [m[38;5;238m[48;5;234m[m[53;159H[38;5;255m[48;5;238m utf-8[unix] [m[38;5;190m[48;5;238m[m[53;173H[38;5;17m[48;5;190m 0%[m[1m[38;5;17m[48;5;190m [53;178H:1/138☰ [53;187H:1[m[38;5;17m[48;5;190m [m[38;5;166m[48;5;190m]2;mpv.conf (~/.config/mpv) - VIM[2;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[m[53;19H[38;5;255m[48;5;238mɆ [m[38;5;238m[48;5;234m[m[53;22H[38;5;85m[48;5;234m mpv.conf[m[143C[38;5;17m[48;5;190m1[m[4C[1m[38;5;17m[48;5;190m2/[3;1H[m[53;174H[38;5;17m[48;5;190m2[m[4C[1m[38;5;17m[48;5;190m3/[4;1H[53;179H4/[5;1H[m[53;174H[38;5;17m[48;5;190m3[m[4C[1m[38;5;17m[48;5;190m5/[6;1H[m[53;174H[38;5;17m[48;5;190m4[m[4C[1m[38;5;17m[48;5;190m6/[7;1H[m[53;174H[38;5;17m[48;5;190m5[m[4C[1m[38;5;17m[48;5;190m7/[8;1H[53;179H8/[9;1H[m[53;174H[38;5;17m[48;5;190m6[m[4C[1m[38;5;17m[48;5;190m9/[10;1H[m[53;150H[38;5;234m[48;5;234m[m[53;151H[38;5;85m[48;5;234m conf [m[38;5;238m[48;5;234m[m[53;158H[38;5;255m[48;5;238m utf-8[unix] [m[38;5;190m[48;5;238m[m[53;172H[38;5;17m[48;5;190m 7%[m[1m[38;5;17m[48;5;190m [53;177H:10/[11;1H[53;179H1/[12;1H[m[53;173H[38;5;17m[48;5;190m8[m[5C[1m[38;5;17m[48;5;190m2/[13;1H[m[53;173H[38;5;17m[48;5;190m9[m[5C[1m[38;5;17m[48;5;190m3/[14;1H[m[53;149H[38;5;234m[48;5;234m[m[53;150H[38;5;85m[48;5;234m conf [m[38;5;238m[48;5;234m[m[53;157H[38;5;255m[48;5;238m utf-8[unix] [m[38;5;190m[48;5;238m[m[53;171H[38;5;17m[48;5;190m 10[m[5C[1m[38;5;17m[48;5;190m4/[15;1H[53;179H5/[16;1H[m[53;173H[38;5;17m[48;5;190m1[m[5C[1m[38;5;17m[48;5;190m6/[17;1H[m[53;173H[38;5;17m[48;5;190m2[m[5C[1m[38;5;17m[48;5;190m7/[18;1H[m[53;173H[38;5;17m[48;5;190m3[m[5C[1m[38;5;17m[48;5;190m8/[19;1H[53;179H9/[20;1H[m[53;173H[38;5;17m[48;5;190m4[m[4C[1m[38;5;17m[48;5;190m20/[21;1H[m[53;173H[38;5;17m[48;5;190m5[m[5C[1m[38;5;17m[48;5;190m1/[22;1H[53;179H2/[23;1H[m[53;173H[38;5;17m[48;5;190m6[m[5C[1m[38;5;17m[48;5;190m3/[24;1H[m[53;173H[38;5;17m[48;5;190m7[m[5C[1m[38;5;17m[48;5;190m4/[25;1H[m[53;173H[38;5;17m[48;5;190m8[m[5C[1m[38;5;17m[48;5;190m5/[26;1H[53;179H6/[27;1H[m[53;173H[38;5;17m[48;5;190m9[m[5C[1m[38;5;17m[48;5;190m7/[28;1H[m[53;172H[38;5;17m[48;5;190m20[m[5C[1m[38;5;17m[48;5;190m8/[29;1H[m[53;173H[38;5;17m[48;5;190m1[m[5C[1m[38;5;17m[48;5;190m9/[30;1H[53;178H30/[31;1H[m[53;173H[38;5;17m[48;5;190m2[m[5C[1m[38;5;17m[48;5;190m1/[32;1H[m[53;173H[38;5;17m[48;5;190m3[m[5C[1m[38;5;17m[48;5;190m2/[33;1H[53;179H3/[34;1H[?25l[?25h[m[1;1H[38;5;17m[48;5;45m mpv.conf+ [m[38;5;45m[48;5;234m[?25l[m[34;1Hfs=yes [53;21H[38;5;238m[48;5;53m[m[53;22H[38;5;255m[48;5;53m mpv.conf[+]                                                                                                                   [m[38;5;234m[48;5;53m]2;mpv.conf + (~/.config/mpv) - VIM[34;1H[?25h[m[53;173H[38;5;17m[48;5;190m4[m[5C[1m[38;5;17m[48;5;190m4/[35;1H[m[53;173H[38;5;17m[48;5;190m5[m[5C[1m[38;5;17m[48;5;190m5/[36;1H[m[53;173H[38;5;17m[48;5;190m6[m[5C[1m[38;5;17m[48;5;190m6/[37;1H[?25l[m[54;1H1 change; before #1  7 seconds ago[1;1H[38;5;17m[48;5;190m mpv.conf [m[38;5;190m[48;5;234m[m[1;12H[38;5;85m[48;5;234m [m[34;1H[90m#fs=yes[m[53;21H[38;5;238m[48;5;234m[m[53;22H[38;5;85m[48;5;234m mpv.conf                                                                                                                      [m[38;5;234m[48;5;234m[m[53;173H[38;5;17m[48;5;190m3[m[5C[1m[38;5;17m[48;5;190m3/]2;mpv.conf (~/.config/mpv) - VIM[34;1H[?25h[m[1;1H[38;5;17m[48;5;45m mpv.conf+ [m[38;5;45m[48;5;234m[?25l[m[34;1Hfs=yes [53;21H[38;5;238m[48;5;53m[m[53;22H[38;5;255m[48;5;53m mpv.conf[+]                                                                                                                   [m[38;5;234m[48;5;53m]2;mpv.conf + (~/.config/mpv) - VIM[34;1H[?25h[m[53;173H[38;5;17m[48;5;190m4[m[5C[1m[38;5;17m[48;5;190m4/[35;1H[m[53;173H[38;5;17m[48;5;190m5[m[5C[1m[38;5;17m[48;5;190m5/[36;1H[m[53;173H[38;5;17m[48;5;190m6[m[5C[1m[38;5;17m[48;5;190m6/[37;1H[?25l[mgeometry=50%:50% [?25h[53;179H[1m[38;5;17m[48;5;190m7/[38;1H[m[53;173H[38;5;17m[48;5;190m7[m[5C[1m[38;5;17m[48;5;190m8/[39;1H[m[53;173H[38;5;17m[48;5;190m8[m[5C[1m[38;5;17m[48;5;190m9/[40;1H[?25l[mautofit-larger=90%x90% [?25h[53;178H[1m[38;5;17m[48;5;190m40/[41;1H[m[53;173H[38;5;17m[48;5;190m9[m[5C[1m[38;5;17m[48;5;190m1/[42;1H[m[53;172H[38;5;17m[48;5;190m30[m[5C[1m[38;5;17m[48;5;190m2/[43;1H[m[53;173H[38;5;17m[48;5;190m1[m[5C[1m[38;5;17m[48;5;190m3/[44;1H[53;179H4/[45;1H[m[53;173H[38;5;17m[48;5;190m2[m[5C[1m[38;5;17m[48;5;190m5/[46;1H[m[53;173H[38;5;17m[48;5;190m3[m[5C[1m[38;5;17m[48;5;190m6/[47;1H[m[53;173H[38;5;17m[48;5;190m4[m[5C[1m[38;5;17m[48;5;190m7/[48;1H[53;179H8/[49;1H[m[53;173H[38;5;17m[48;5;190m5[m[5C[1m[38;5;17m[48;5;190m9/[50;1H[m[53;173H[38;5;17m[48;5;190m6[m[4C[1m[38;5;17m[48;5;190m50/[51;1H[?25l[mosc=no [?25h[53;179H[1m[38;5;17m[48;5;190m1/[52;1H[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Keep the player window on top of all other windows.[m[54;1H[K[53;173H[38;5;17m[48;5;190m7[m[5C[1m[38;5;17m[48;5;190m2/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#ontop=yes[m[53;173H[38;5;17m[48;5;190m8[m[5C[1m[38;5;17m[48;5;190m3/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;173H[38;5;17m[48;5;190m9[m[5C[1m[38;5;17m[48;5;190m4/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Specify high quality video rendering preset (for --vo=gpu only)[m[53;179H[1m[38;5;17m[48;5;190m5/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Can cause performance problems with some drivers and GPUs.[m[53;172H[38;5;17m[48;5;190m40[m[5C[1m[38;5;17m[48;5;190m6/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#profile=gpu-hq[m[53;173H[38;5;17m[48;5;190m1[m[5C[1m[38;5;17m[48;5;190m7/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;173H[38;5;17m[48;5;190m2[m[5C[1m[38;5;17m[48;5;190m8/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Force video to lock on the display's refresh rate, and change video and audio[m[53;179H[1m[38;5;17m[48;5;190m9/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# speed to some degree to ensure synchronous playback - can cause problems[m[53;173H[38;5;17m[48;5;190m3[m[4C[1m[38;5;17m[48;5;190m60/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# with some drivers and desktop environments.[m[53;173H[38;5;17m[48;5;190m4[m[5C[1m[38;5;17m[48;5;190m1/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#video-sync=display-resample[m[53;179H[1m[38;5;17m[48;5;190m2/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;173H[38;5;17m[48;5;190m5[m[5C[1m[38;5;17m[48;5;190m3/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Enable hardware decoding if available. Often, this does not work with all[m[53;173H[38;5;17m[48;5;190m6[m[5C[1m[38;5;17m[48;5;190m4/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# video outputs, but should work well with default settings on most systems.[m[53;173H[38;5;17m[48;5;190m7[m[5C[1m[38;5;17m[48;5;190m5/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# If performance or energy usage is an issue, forcing the vdpau or vaapi VOs[m[53;179H[1m[38;5;17m[48;5;190m6/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# may or may not help.[m[53;173H[38;5;17m[48;5;190m8[m[5C[1m[38;5;17m[48;5;190m7/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#hwdec=auto[m[53;173H[38;5;17m[48;5;190m9[m[5C[1m[38;5;17m[48;5;190m8/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;172H[38;5;17m[48;5;190m50[m[5C[1m[38;5;17m[48;5;190m9/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m##################[m[53;178H[1m[38;5;17m[48;5;190m70/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# audio settings #[m[53;173H[38;5;17m[48;5;190m1[m[5C[1m[38;5;17m[48;5;190m1/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m##################[m[53;173H[38;5;17m[48;5;190m2[m[5C[1m[38;5;17m[48;5;190m2/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;179H[1m[38;5;17m[48;5;190m3/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Specify default audio device. You can list devices with: --audio-device=help[m[53;173H[38;5;17m[48;5;190m3[m[5C[1m[38;5;17m[48;5;190m4/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# The option takes the device string (the stuff between the '...').[m[53;173H[38;5;17m[48;5;190m4[m[5C[1m[38;5;17m[48;5;190m5/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#audio-device=alsa/default[m[53;173H[38;5;17m[48;5;190m5[m[5C[1m[38;5;17m[48;5;190m6/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;179H[1m[38;5;17m[48;5;190m7/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Do not filter audio to keep pitch when changing playback speed.[m[53;173H[38;5;17m[48;5;190m6[m[5C[1m[38;5;17m[48;5;190m8/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#audio-pitch-correction=no[m[53;173H[38;5;17m[48;5;190m7[m[5C[1m[38;5;17m[48;5;190m9/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;178H[1m[38;5;17m[48;5;190m80/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Output 5.1 audio natively, and upmix/downmix audio with a different format.[m[53;173H[38;5;17m[48;5;190m8[m[5C[1m[38;5;17m[48;5;190m1/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#audio-channels=5.1[m[53;173H[38;5;17m[48;5;190m9[m[5C[1m[38;5;17m[48;5;190m2/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Disable any automatic remix, _if_ the audio output accepts the audio format.[m[53;172H[38;5;17m[48;5;190m60[m[5C[1m[38;5;17m[48;5;190m3/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# of the currently played file. See caveats mentioned in the manpage.[m[53;179H[1m[38;5;17m[48;5;190m4/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# (The default is "auto-safe", see manpage.)[m[53;173H[38;5;17m[48;5;190m1[m[5C[1m[38;5;17m[48;5;190m5/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#audio-channels=auto[m[53;173H[38;5;17m[48;5;190m2[m[5C[1m[38;5;17m[48;5;190m6/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;173H[38;5;17m[48;5;190m3[m[5C[1m[38;5;17m[48;5;190m7/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m##################[m[53;179H[1m[38;5;17m[48;5;190m8/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# other settings #[m[53;173H[38;5;17m[48;5;190m4[m[5C[1m[38;5;17m[48;5;190m9/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m##################[m[53;173H[38;5;17m[48;5;190m5[m[4C[1m[38;5;17m[48;5;190m90/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;179H[1m[38;5;17m[48;5;190m1/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Pretend to be a web browser. Might fix playback with some streaming sites,[m[53;173H[38;5;17m[48;5;190m6[m[5C[1m[38;5;17m[48;5;190m2/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# but also will break with shoutcast streams.[m[53;173H[38;5;17m[48;5;190m7[m[5C[1m[38;5;17m[48;5;190m3/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#user-agent="Mozilla/5.0"[m[53;173H[38;5;17m[48;5;190m8[m[5C[1m[38;5;17m[48;5;190m4/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;179H[1m[38;5;17m[48;5;190m5/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# cache settings[m[53;173H[38;5;17m[48;5;190m9[m[5C[1m[38;5;17m[48;5;190m6/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#[m[53;172H[38;5;17m[48;5;190m70[m[5C[1m[38;5;17m[48;5;190m7/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Use a large seekable RAM cache even for local input.[m[53;173H[38;5;17m[48;5;190m1[m[5C[1m[38;5;17m[48;5;190m8/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#cache=yes[m[53;179H[1m[38;5;17m[48;5;190m9/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#[m[53;148H[38;5;234m[48;5;53m[m[53;149H[38;5;85m[48;5;234m conf [m[38;5;238m[48;5;234m[m[53;156H[38;5;255m[48;5;238m utf-8[unix] [m[38;5;190m[48;5;238m[m[53;170H[38;5;17m[48;5;190m 72%[m[1m[38;5;17m[48;5;190m [53;176H:100/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Use extra large RAM cache (needs cache=yes to make it useful).[m[53;172H[38;5;17m[48;5;190m3[m[6C[1m[38;5;17m[48;5;190m1/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#demuxer-max-bytes=500M[m[53;179H[1m[38;5;17m[48;5;190m2/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#demuxer-max-back-bytes=100M[m[53;172H[38;5;17m[48;5;190m4[m[6C[1m[38;5;17m[48;5;190m3/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#[m[53;172H[38;5;17m[48;5;190m5[m[6C[1m[38;5;17m[48;5;190m4/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Disable the behavior that the player will pause if the cache goes below a[m[53;172H[38;5;17m[48;5;190m6[m[6C[1m[38;5;17m[48;5;190m5/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# certain fill size.[m[53;179H[1m[38;5;17m[48;5;190m6/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#cache-pause=no[m[53;172H[38;5;17m[48;5;190m7[m[6C[1m[38;5;17m[48;5;190m7/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#[m[53;172H[38;5;17m[48;5;190m8[m[6C[1m[38;5;17m[48;5;190m8/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Store cache payload on the hard disk instead of in RAM. (This may negatively[m[53;179H[1m[38;5;17m[48;5;190m9/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# impact performance unless used for slow input such as network.)[m[53;172H[38;5;17m[48;5;190m9[m[5C[1m[38;5;17m[48;5;190m10/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#cache-dir=~/.cache/[m[53;171H[38;5;17m[48;5;190m80[m[6C[1m[38;5;17m[48;5;190m1/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#cache-on-disk=yes[m[53;172H[38;5;17m[48;5;190m1[m[6C[1m[38;5;17m[48;5;190m2/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;179H[1m[38;5;17m[48;5;190m3/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Display English subtitles if available.[m[53;172H[38;5;17m[48;5;190m2[m[6C[1m[38;5;17m[48;5;190m4/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#slang=en[m[53;172H[38;5;17m[48;5;190m3[m[6C[1m[38;5;17m[48;5;190m5/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;172H[38;5;17m[48;5;190m4[m[6C[1m[38;5;17m[48;5;190m6/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Play Finnish audio if available, fall back to English otherwise.[m[53;179H[1m[38;5;17m[48;5;190m7/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#alang=fi,en[m[53;172H[38;5;17m[48;5;190m5[m[6C[1m[38;5;17m[48;5;190m8/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;172H[38;5;17m[48;5;190m6[m[6C[1m[38;5;17m[48;5;190m9/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Change subtitle encoding. For Arabic subtitles use 'cp1256'.[m[53;178H[1m[38;5;17m[48;5;190m20/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# If the file seems to be valid UTF-8, prefer UTF-8.[m[53;172H[38;5;17m[48;5;190m7[m[6C[1m[38;5;17m[48;5;190m1/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# (You can add '+' in front of the codepage to force it.)[m[53;172H[38;5;17m[48;5;190m8[m[6C[1m[38;5;17m[48;5;190m2/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#sub-codepage=cp1256[m[53;172H[38;5;17m[48;5;190m9[m[6C[1m[38;5;17m[48;5;190m3/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;179H[1m[38;5;17m[48;5;190m4/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# You can also include other configuration files.[m[53;171H[38;5;17m[48;5;190m90[m[6C[1m[38;5;17m[48;5;190m5/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#include=/path/to/the/file/you/want/to/include[m[53;172H[38;5;17m[48;5;190m1[m[6C[1m[38;5;17m[48;5;190m6/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;172H[38;5;17m[48;5;190m2[m[6C[1m[38;5;17m[48;5;190m7/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m############[m[53;179H[1m[38;5;17m[48;5;190m8/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# Profiles #[m[53;172H[38;5;17m[48;5;190m3[m[6C[1m[38;5;17m[48;5;190m9/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m############[m[53;172H[38;5;17m[48;5;190m4[m[5C[1m[38;5;17m[48;5;190m30/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;179H[1m[38;5;17m[48;5;190m1/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# The options declared as part of profiles override global default settings,[m[53;172H[38;5;17m[48;5;190m5[m[6C[1m[38;5;17m[48;5;190m2/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# but only take effect when the profile is active.[m[53;172H[38;5;17m[48;5;190m6[m[6C[1m[38;5;17m[48;5;190m3/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;172H[38;5;17m[48;5;190m7[m[6C[1m[38;5;17m[48;5;190m4/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m# The following profile can be enabled on the command line with: --profile=eye-cancer[m[53;179H[1m[38;5;17m[48;5;190m5/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[53;172H[38;5;17m[48;5;190m8[m[6C[1m[38;5;17m[48;5;190m6/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#[eye-cancer][m[53;172H[38;5;17m[48;5;190m9[m[6C[1m[38;5;17m[48;5;190m7/[52;1H[?25h[?25l[2;52r[m[52;1H
+[1;54r[52;1H[90m#sharpen=5[m[53;147H[38;5;234m[48;5;53m[m[53;148H[38;5;85m[48;5;234m conf [m[38;5;238m[48;5;234m[m[53;155H[38;5;255m[48;5;238m utf-8[unix] [m[38;5;190m[48;5;238m[m[53;169H[38;5;17m[48;5;190m 100[m[6C[1m[38;5;17m[48;5;190m8/[52;1H[?25h[?2004l[>4;m[?25l[m
+
+"mpv.conf" 138L, 4361B written[?25h[ q]2;mpv.conf + (~/.config/mpv) - VIM[27m[23m[29m[m[H[2J[1;1H[38;5;17m[48;5;190m mpv.conf [m[38;5;190m[48;5;234m[m[1;12H[38;5;85m[48;5;234m                                                                                                                                                                        [m[38;5;234m[48;5;234m[m[1;181H[38;5;238m[48;5;234m[m[1;182H[38;5;255m[48;5;238m buffers [?25l[m[2;1H[90m##################
+# other settings #
+##################
+
+# Pretend to be a web browser. Might fix playback with some streaming sites,
+# but also will break with shoutcast streams.
+#user-agent="Mozilla/5.0"
+
+# cache settings
+#
+# Use a large seekable RAM cache even for local input.
+#cache=yes
+#
+# Use extra large RAM cache (needs cache=yes to make it useful).
+#demuxer-max-bytes=500M
+#demuxer-max-back-bytes=100M
+#
+# Disable the behavior that the player will pause if the cache goes below a
+# certain fill size.
+#cache-pause=no
+#
+# Store cache payload on the hard disk instead of in RAM. (This may negatively
+# impact performance unless used for slow input such as network.)
+#cache-dir=~/.cache/
+#cache-on-disk=yes
+
+# Display English subtitles if available.
+#slang=en
+
+# Play Finnish audio if available, fall back to English otherwise.
+#alang=fi,en
+
+# Change subtitle encoding. For Arabic subtitles use 'cp1256'.
+# If the file seems to be valid UTF-8, prefer UTF-8.
+# (You can add '+' in front of the codepage to force it.)
+#sub-codepage=cp1256
+
+# You can also include other configuration files.
+#include=/path/to/the/file/you/want/to/include
+
+############
+# Profiles #
+############
+
+# The options declared as part of profiles override global default settings,
+# but only take effect when the profile is active.
+
+# The following profile can be enabled on the command line with: --profile=eye-cancer
+
+#[eye-cancer]
+#sharpen=5[m
+[38;5;17m[48;5;190m [m[1m[38;5;17m[48;5;190mNORMAL[m[38;5;17m[48;5;190m [m[38;5;190m[48;5;238m[m[53;10H[38;5;255m[48;5;238m [53;12H masterɆ [m[38;5;238m[48;5;234m[m[53;22H[38;5;85m[48;5;234m mpv.conf                                                                                                                    [m[38;5;234m[48;5;234m[m[53;148H[38;5;85m[48;5;234m conf [m[38;5;238m[48;5;234m[m[53;155H[38;5;255m[48;5;238m utf-8[unix] [m[38;5;190m[48;5;238m[m[53;169H[38;5;17m[48;5;190m 100%[m[1m[38;5;17m[48;5;190m [53;176H:138/138☰ [53;187H:1[m[38;5;17m[48;5;190m [m[38;5;166m[48;5;190m]2;mpv.conf (~/.config/mpv) - VIM[54;1H]2;Thanks for flying Vim[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[m[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;sms@gl502vmk-pop: ~/.config/mpv]0;sms@gl502vmk-pop: ~/.config/mpv[0;31m┌─[[0;39msms[01;33m@[01;96mgl502vmk-pop[0;31m]─[[0;32m~/.config/mpv[0;31m]
+[0;31m└──╼ [0m[01;33m$[0m[K[0;31m└──╼ [0m[01;33m$[0m[K[0;31m└──╼ [0m[01;33m$[0m[?2004l
+exit
+
+Script done on 2023-03-03 15:42:09-08:00 [COMMAND_EXIT_CODE="0"]
