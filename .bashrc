@@ -20,10 +20,9 @@ case $- in
     *i*) ;;
       *) return;;
 esac
-export PATH=/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/home/sms/bin:/home/sms/.scripts/
+export PATH=/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/home/sms/bin:/home/sms/.scripts/:/home/sms/.screenlayout/
 
-
- #don't put duplicate lines or lines starting with space in the history.
+#don't put duplicate lines or lines starting with space in the history.
 
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
