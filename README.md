@@ -3,5 +3,5 @@
 
 <p aligh="left"> <p id="anchor"> https://github.com/LukeSmithxyz</p>
 <p aligh="left"> <p id="anchor"> https://github.com/lawrencesystems</p>
-<p aligh="left"> <p id="anchor"> https://www.youtube.com/@LearnLinuxTV</p>
+<p aligh="left"> <p id="anchor"> https://github.com/LearnLinuxTV</p>
 
