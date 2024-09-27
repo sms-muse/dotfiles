@@ -20,7 +20,7 @@ cmap w!! w !sudo tee > /dev/null %
 "#####################################
 
 set runtimepath^=~/.vim/color/badwolf-master
-colorscheme pablo
+colorscheme badwolf
 
 "####################################
 "## end video 40
@@ -48,7 +48,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'scrooloose/nerdtree'
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-
+Plug 'will133/vim-dirdiff'
 call plug#end()
 
 " Set airline theme
@@ -76,6 +76,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'scrooloose/nerdtree'
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+" Run a diff on 2 directories
+Plug 'will133/vim-dirdiff'
 call plug#end()
 
 " Set airline theme
@@ -312,14 +314,6 @@ map <leader>r :Ranger<CR>
 
 " Close all the buffers
     map <leader>ba :1.1000 bd!<cr>
-
-" Useful mappings for managing tabs
-
-
-	map <leader>tn :tabnew<cr>
-	map <leader>to :tabonly<cr>
-	map <leader>tc :tabclose<cr>
-	map <leader>tm :tabmove
 
 " Opens a new tab with the current buffer's path
 " Super useful when editing files in the same directory
