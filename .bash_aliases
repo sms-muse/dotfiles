@@ -122,3 +122,22 @@ alias cst="config status"
 alias cad="config add"
 alias ccm="config commit -m"
 alias cpu="config push"
+
+# vimDiff function
+vdiff () {
+    if [ "${#}" -ne 2 ] ; then
+        echo " vdiff requires two arguements"
+        echo " comparing dirs: vdiff dir_a dir_b"
+        echo " comparing files: vdiff file_a file_b"
+        return 1
+    fi
+
+    local left="${1}"
+    local right="${2}"
+
+    if [ -d "${left}" ] &&  [ -d "${right}" ]; then
+        vim + "DirDiff ${left} ${right}"
+    else
+       vim -d "${left}"  "${right}"
+    fi
+}
